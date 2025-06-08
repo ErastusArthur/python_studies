@@ -13,3 +13,55 @@ else:
     result="N/A"
 
 print(result)
+
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+
+answer = 8 #provide answer
+guess = 50 #provide guess
+
+if guess < answer : #provide conditional
+    result = "Oops!  Your guess was too low."
+elif guess > answer : #provide conditional
+    result = "Oops!  Your guess was too high."
+elif guess == answer : #provide conditional
+    result = "Nice!  Your guess matched the answer!"
+
+print(result)
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+
+state = 'NY'
+purchase_amount = 100 
+
+if state== 'CA':
+    tax_amount = .075
+    total_cost = purchase_amount*(1+tax_amount)
+    result = "Since you're from {}, your total cost is {}.".format(state, total_cost)
+
+elif state== 'MN': 
+    tax_amount = .095
+    total_cost = purchase_amount*(1+tax_amount)
+    result = "Since you're from {}, your total cost is {}.".format(state, total_cost)
+
+elif state=='NY':  
+    tax_amount = .089
+    total_cost = purchase_amount*(1+tax_amount)
+    result = "Since you're from {}, your total cost is {}.".format(state, total_cost)
+
+print(result)
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+
+
